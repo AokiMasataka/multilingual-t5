@@ -13,7 +13,7 @@
 # limitations under the License.
 
 """Preprocessors for Multilingual T5."""
-
+from t5.data.preprocessors import parse_tsv
 import tensorflow.compat.v2 as tf
 
 
