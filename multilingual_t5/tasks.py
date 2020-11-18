@@ -336,9 +336,9 @@ def bleu(targets, predictions):
   return {"bleu": bleu_score.score}
 
 snow_tsv_path = {
-    "train": "./snow_t15_23_train.tsv",
-    "validation": "./snow_t15_23_dev.tsv",
-    "test": "./snow_t15_23_test.tsv",
+    "train": "./train.tsv",
+    "validation": "./val.tsv",
+    "test": "./test.tsv",
 }
 
 t5.data.TaskRegistry.add(
